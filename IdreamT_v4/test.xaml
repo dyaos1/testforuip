@@ -1,0 +1,317 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1054,921" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="33">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="60">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="524,856" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="debugText" />
+      <Variable x:TypeArguments="x:Int32" Default="1" Name="count" />
+      <Variable x:TypeArguments="x:String" Name="lastDay" />
+      <Variable x:TypeArguments="x:Boolean" Name="flag" />
+      <Variable x:TypeArguments="x:String" Name="num" />
+      <Variable x:TypeArguments="x:String" Name="text2" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="482,61" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="400,307" sap2010:WorkflowViewState.IdRef="Sequence_24">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:UiElementExists DisplayName="Element Exists 'DIV  lookup-item-epo-po...'" Exists="[flag]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+            <ui:UiElementExists.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7f972e17-d80f-401d-a395-c8d0524eaab8" InformativeScreenshot="8584139270d7a9e536fc1137819bd7af" Selector="&lt;html app='chrome.exe' title='(주)아이꿈터*' /&gt;&lt;webctrl id='lookup-item-epo-popup-*' tag='DIV' innertext='발주 상품 정보상품명바코드조회 상품 상태브랜드상품분류기타분류여유분류 상품상태수주상태상품코드단축코드상품명규격판매단가단위입수출하단위카탈로그기타분류여유분류    페이지/*' /&gt;">
+                <ui:Target.TimeoutMS>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:Target.TimeoutMS>
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:UiElementExists.Target>
+          </ui:UiElementExists>
+          <If Condition="[flag]" sap:VirtualizedContainerService.HintSize="358,61" sap2010:WorkflowViewState.IdRef="If_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Then>
+              <Sequence sap:VirtualizedContainerService.HintSize="400,191" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="358,101" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;yeah&quot;]" />
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="482,61" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="442,585" sap2010:WorkflowViewState.IdRef="Sequence_29">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence sap:VirtualizedContainerService.HintSize="400,495" sap2010:WorkflowViewState.IdRef="Sequence_28">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  button-2090-btnIn...'" sap:VirtualizedContainerService.HintSize="338,116" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9cf88900-52e0-4ead-8d87-8ff01fb044ef" InformativeScreenshot="de601a732c265411f003ca8865d87986" Selector="&lt;html app='chrome.exe' title='(주)아이꿈터물류센터' /&gt;&lt;webctrl aaname='발주 명세서.' tag='SPAN' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:ImageFound DisplayName="Image Exists 'chrome.exe (주)아이꿈터물류센터'" Found="[flag]" sap:VirtualizedContainerService.HintSize="338,116" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+              <ui:ImageFound.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGYAAAAoCAYAAAAMjY9+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdXSURBVHhe7Zh7UFTXHYD9q9NJTG1qEw2+Iy5vhBINCqgQFK0WhIKpjxJ5TIsRm2olJkFwDNFKND6wsDLGB0TFx0jlUcdBEFtE1GSUgIYwBhEHUJgFHYEBhr3z9a5edFl2YZc14/3jfjM/Zs9l5+w55zvn/M65w1CQJYoYmaKIkSmKGJmiiJEpwyoqKlBCfjFMRPdHCblFTEwMSsgvlBwjUxQxMkURI1MUMTJFESNTFDEyRREjUwYQ00Xj7VoeCVJRj/a6aurapQICLSVfk178QPz0Euhu4lbpBYoKCymUouhCCd83dEhfkND+SPbe01T1SGUTaJtvc7tZK5Ukum9yKi2PO7rHQgslhzIoax2st23U1TSKo2gMLdXZ/yL7R9ONMS2mM4cPxvixp96wAR0cD3uDxZm9Znr4Lt4dh7UldEtP+qCtYf9yD1ycnXHWC8dJb/KrUW/jZPDcxWMlGffMVCzWvW/heFR+y1gZEUGEFCuXvYdqtA/JlXodb88gcMQC9rdKZaP0cO3TqbhuuNq3L01q5o0M47jOdfcVNri68dm3AxsW7qcy12YF2Z3Sgz60kxE4ggUDNGYAMf/mz6NdiEw7RlZWll5ksnbmrwnKMFOMCTTp83k9+IjYRCvoPEO4zSx2PJnKegj3SZ07itA9RZw+LrU7Yw3Thg8mppuLf7Nj+uc3xV7pMQQx2qotzJi8ivNGl4y1YkZNxD9mPevX68daguxfI9AqMQ/JiRjHL2xXU2SNGV0bbXzZVWe4wppQB7xJYEIaCXFSu//+B1SvDiamkzPhY1m4v0UqSwxBTFfBX5nsncxtgznzFGvFGO10B1mhIw1WzFReV/kSHBzCkriT0nNTdFKVsRw3n42o4zxx/+AI1UaXuxkMKGYUS0/pVWzOVqZbaQG2xBhOc4vFCNzd5cv4yHyxt8awWswcdt3tL+bYHw3FuDE5/DBXv7tO+U8a6bkhndSXHWXT++/gOj+RgkaxXm09/4n3x+l3oSRkXuJuu+FvDcIgYpaoyyjIzyMvT4zTccx4bRAxXcXE2vmys9agPovFPObE+2MIUN83cSCyRkzPt2x0s2FmVCJJSUnPI/FDfMer+Ohi78Y10FYm0Jz7MfM83XBycMUreA1f5VaJze7L46ocvloTjJeLHQ5T32XuJ/kMNH7PeHJA8WRLlcF+IR4KtvuMJjhhN3FrYomNFSMmgMmvDCxGqN3JrOHuxF/TULgpkPf8/PDTxWxHfjvCAjHteUTa/BKH2HO0aFu5+k0yX+iPYVIiSxxfHaIYka66Uk4eSGefWo1ain37DnDyUp3eMVA8+u0JYkFyRd+E2Uv3Q5o07eK3zEPboaH5kZnZSmjm7MezUE2agr29/fNQ2eLov5HzGr35asZWpjm8mDH2Tth7JnL5QSO1tXe4c0eM61uZbcGKacuNZKJ7CGFTbQnL/IHK/AN9xlCtTiHKffjQxdBzn4r/Fj27HxiNomJKf2iy6ET2UhDFBI34PV8/lMr9aCVryUQWH7zFieUqvLd+/7xPlmxl4mQ5GjoOv901tN/Ygs+k+aT2u69Ys5WJCA/OsvUvkc/uB0Zj5TJ8p4wVO3Sv/37aWciGmY446M9mKVTjfsMrI8djZ+R/Do4+xF80fjUzjUBb3XUu5GRxKD2NvSkppKYf4tiZC9y414YgXgxvlt3E1L1QuH+IxZNDOdIsoK1NZ5HtItJ786sFYrS3/onXxKWceJJqu6n8cg7jfHdQ2WfmWinGPHq4+okrDusuWbRqHh5YyMjQLPEoYS1iHivZSbi3M26zg4lYs4HEpK1sS97Gls0JxK0OJ8jbBefZUey93GIiGfdQ+cUM7GPOifd1Hd1c+8wdu1UFT/OhuWKEJk6tmMKMpPLnY9FdwTafMczZoX83slaM0MDZTUvwn+WNl5eXiZjGFBs7ok83mei0cV6UGKHpKGETPIkvMTXoOrQ0Fa3DY8JSThpcUXQIDZmEqgJIrXmeCYWGgwRNmE+abtWYKaa14EOcHGMpNDjddF7diMdbYl3P6rd2K6vbje8bi1BXN6PRaIxHSwuPuyxR8pQXJUZ7K4l3J0WR/3Sqm+bRaVaM9WJbtcExRGgka6k9vtsrDVZ8J/9b58L0TWKuMUOM0JxLtJ0Tq88ZG+yH5Ee/zfiIHB49KVspRluzHZ+3/sQJkwlz6LywrUyoJ3uVByrvaLZmnuNadQOtHT3i6hHobm+hvqqM/IObCZ8+hXc+ykV3feqDmHtuFF6mwdixsa2Gyp8ei6vSDDGaK5zILu93FehFaCjmm5xb0mnW2q2sp4rD0bOZ6ujQL0H3DQec/ZMosyDJdJz/lJDNluUl03RRX3qE5H9EEDLPh2nuruKW4oiz2zS854UQuf5Lsq40Dv232s4SF/w5pboKdC9lo6I5XGvuBcAYXRQnBBNfZPqVxwtI/go/B4oYmaKIkSmKGJmiiJEpw8rLyykpKVFCRqF7cTosKirKyG1eiZcZKSkpylYmVxQxMkURI0vg/zPANlZ9aHGmAAAAAElFTkSuQmCC" />
+              </ui:ImageFound.Image>
+              <ui:ImageFound.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3075b560-83e8-4fd2-9000-e6c8b3b8ba9b" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='(주)아이꿈터물류센터 - Chrome' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ImageFound.Target>
+            </ui:ImageFound>
+            <If Condition="[flag]" sap:VirtualizedContainerService.HintSize="338,61" sap2010:WorkflowViewState.IdRef="If_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="400,327" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:Highlight HighlightTime="{x:Null}" Color="Gold" sap:VirtualizedContainerService.HintSize="358,96" sap2010:WorkflowViewState.IdRef="Highlight_1">
+                    <ui:Highlight.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="79529055-0ae5-40f6-8bab-37be1e91f43e" Selector="&lt;html app='chrome.exe' title='(주)아이꿈터물류센터' /&gt;&lt;webctrl id='smart-preview-body' tag='DIV' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Highlight.Target>
+                  </ui:Highlight>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="358,101" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;yea&quot;]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap:VirtualizedContainerService.HintSize="400,347" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:Highlight HighlightTime="{x:Null}" Color="Gold" DisplayName="Highlight 'DIV  smart-preview'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Highlight_2">
+                    <ui:Highlight.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d0ee7f5b-b52c-4382-a681-cb691285fabc" InformativeScreenshot="a080651cf1173bddf68bf20d15010fdb" Selector="&lt;html app='chrome.exe' title='(주)아이꿈터물류센터' /&gt;&lt;webctrl id='smart-preview' tag='DIV' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Highlight.Target>
+                  </ui:Highlight>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="358,101" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Nay&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <Assign sap:VirtualizedContainerService.HintSize="482,70" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[debugText]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <If Condition="[string.IsNullOrEmpty(&quot;&quot;)]" sap:VirtualizedContainerService.HintSize="482,454" sap2010:WorkflowViewState.IdRef="If_3">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="400,191" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="358,101" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;dd&quot;]" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_31">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
